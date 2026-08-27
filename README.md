@@ -26,13 +26,15 @@ CSRForge is deterministic and has no runtime LLM or API dependency.
 
 ## AI-assisted development
 
-CSRForge was developed with AI coding-agent assistance for requirement
+CSRForge was developed with AI coding-agent assistance for requirement 
 decomposition, implementation, test construction, debugging, and refactoring.
 
-Protocol semantics and acceptance criteria were fixed through a written
-specification, hand-written Golden RTL/TB, independent cross-checking,
-mutation tests, and continuous integration. CSRForge itself is deterministic
-and has no runtime LLM or API dependency.
+Protocol semantics and acceptance criteria were defined in a written 
+specification and enforced through hand-written Golden RTL/TB, 
+cross-checking generated RTL against the Golden TB, mutation testing, 
+and continuous integration. 
+CSRForge itself is deterministic and has no runtime LLM or API dependency.
+
 
 ## v0.1 scope
 
