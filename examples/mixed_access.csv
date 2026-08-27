@@ -1,0 +1,5 @@
+Register,Offset,Field,Bits,Access,Reset
+MIXED,0x00,ENABLE,0,RW,0
+MIXED,0x00,BUSY,1,RO,0
+MIXED,0x00,DONE,2,W1C,0
+

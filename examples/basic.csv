@@ -1,0 +1,5 @@
+Register,Offset,Field,Bits,Access,Reset
+CTRL,0x00,ENABLE,0,RW,0
+CTRL,0x00,MODE,2:1,RW,0
+STATUS,0x04,READY,0,RO,0
+

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csrforge"
+version = "0.1.0"
+description = "Compile CSV CSR specifications into APB3 RTL and executable verification"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+csrforge = "csrforge.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["csrforge*"]
